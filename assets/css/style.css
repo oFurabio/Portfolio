@@ -1,0 +1,99 @@
+:root {
+    --margem: 15px;
+}
+
+body {
+    background-color: #ebebeb;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    
+h1 {
+    color: #000127;
+}
+    
+h3 {
+    color: #0b1838;
+}
+
+#apresentacao {
+    margin: var(--margem);
+    display: flex;
+    align-items: center;
+}
+
+#materia {
+    text-align: justify;
+}
+
+#apresentacao h1 {
+    padding-inline: 10px;
+}
+
+#apresentacao img {
+    border-radius: 50%;
+    max-width: 150px;
+    max-height: 150px;
+    padding-inline: 10px;
+}
+
+#sobre {
+    margin: var(--margem);
+    text-align: justify;
+}
+
+#jogo {
+    margin: var(--margem);
+}
+
+#icones {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.contato {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato img {
+    max-height: 30px;
+    padding-right: 10px;
+}
+
+.contato_filho{
+    display: flex;
+    align-items: center;
+}
+
+.contato_filho a {
+    padding-left: 5px;
+    text-decoration: none;
+    color: #1900ff;
+}
+
+.contato_filho a:hover{
+    color: #180a9b;
+}
+
+#menu {
+    margin: var(--margem);
+}
+
+#menu li {
+    display: inline;
+    padding-inline: 15px;
+    font-size: 20px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#menu li a:hover {
+    color: #838383;
+}
