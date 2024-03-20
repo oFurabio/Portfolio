@@ -5,26 +5,32 @@ body {
 }
 
 #apresentacao {
-    margin: 5vw;
+    margin-inline: 10vw;
+    width: 90vw;
     display: flex;
     align-items: center;
 }
 
+hr {
+    width: 75vw;
+}
+
 #apresentacao h1 {
     padding-inline: 10px;
+    max-width: fit-content;
 }
 
 #apresentacao img {
     border-radius: 50%;
+    min-width: 1px;
     max-width: 150px;
+    min-height: 1px;
     max-height: 150px;
     padding-inline: 5px;
 }
 
 .icones {
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 5vw;
 }
 
 .resumo {
@@ -39,6 +45,10 @@ body {
 
 .carrossel img {
     width: 70vw;
+}
+
+.carrossel p {
+    font-size: xx-small;
 }
 
 footer {
